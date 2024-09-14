@@ -4,4 +4,4 @@ const collection = 'bd3-nosql-ativ1'
 
 use(database)
 
-db.createCollection(collection)
+db[collection].find()

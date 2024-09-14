@@ -4,4 +4,6 @@ const collection = 'bd3-nosql-ativ1'
 
 use(database)
 
-db.createCollection(collection)
+db[collection].deleteOne(
+    {"cpf": '42857392032'}
+)
